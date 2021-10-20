@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Home Team">
+        <!--use only on EditTextPreference if you are using Android-Support-Preference-V7-Fix
+        android:inputType="number"-->
+        <EditTextPreference
+            app:key="homeFanFactor"
+            app:title="Fan Factor"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+        <EditTextPreference
+            app:key="homeCheerleaders"
+            app:title="Cheerleaders"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+        <EditTextPreference
+            app:key="homeAssistantCoaches"
+            app:title="Assistant Coaches"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Away Team">
+        <EditTextPreference
+            app:key="awayFanFactor"
+            app:title="Fan Factor"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+        <EditTextPreference
+            app:key="awayCheerleaders"
+            app:title="Cheerleaders"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+        <EditTextPreference
+            app:key="awayAssistantCoaches"
+            app:title="Assistant Coaches"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="0"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
